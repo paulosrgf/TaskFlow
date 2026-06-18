@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
+
+class Task extends Model
+{
+    protected $fillable = ['user_id', 'title', 'description', 'is_completed'];
+
+    // Uma Tarefa pertence a um Usuário (Módulo 09)
+    public function user(): BelongsTo
+    {
+        return $this->belongsTo(User::class);
+    }
+}
