@@ -1,4 +1,4 @@
-# TaskFlow 📋
+# TaskFlow
 ### Gerenciador de Produtividade Pessoal
 
 ---
