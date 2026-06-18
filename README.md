@@ -88,21 +88,6 @@ php artisan serve
 
 ---
 
-## Deploy no GitHub
-
-Após salvar o `README.md` na raiz do projeto, execute os comandos abaixo para atualizar o repositório:
-
-```bash
-# Adicionar o arquivo README ao gerenciamento do Git
-git add README.md
-
-# Criar o commit com a documentação
-git commit -m "docs: add comprehensive README documentation with course modules"
-
-# Enviar as alterações para o GitHub
-git push origin main
-```
-
 ---
 
 ## Tecnologias Utilizadas
